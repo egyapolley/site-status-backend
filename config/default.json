@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb://localhost/siteMapping",
+  "port": "3900",
+  "host": "localhost"
+}
