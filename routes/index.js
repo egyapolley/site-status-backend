@@ -10,8 +10,6 @@ const validate = require("../validators");
 
 const auth = require("../middlewares/auth");
 
-
-
 router.post("/users", async (req, res) => {
     const {error} = validate.UserRegister(req.body)
     if (error) return res.status(400).send(error.message);
